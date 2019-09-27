@@ -6,5 +6,7 @@ module.exports = {
     path: __dirname + '/build',
     filename: '[name].js'
   },
-  plugins: [new HTML()]
+  plugins: [new HTML({
+    title:'devops'
+  })]
 }
